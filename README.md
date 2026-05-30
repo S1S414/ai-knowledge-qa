@@ -4,9 +4,9 @@
 
 ---
 
-## 🚀 快速启动
+##  快速启动
 
-### ⭐ 最简单方式：双击 start.bat
+### 最简单方式：双击 start.bat
 
 直接双击 `start.bat` 文件即可启动服务。
 
@@ -21,23 +21,23 @@ streamlit run app.py --server.port 5002
 
 ---
 
-## ✅ 项目状态
+##  项目状态
 
 **状态**：已完成，可正常运行
 
 **最新更新**：2026-05-07
-- ✅ 修复 Streamlit stdout 关闭导致 tqdm 崩溃问题
-- ✅ 实现 DeepSeek 风格深色主题 UI（蓝紫渐变）
-- ✅ 优化文件预览交互（默认不显示，点击后显示）
-- ✅ 修复侧边栏、输入框、按钮等样式问题
+-  修复 Streamlit stdout 关闭导致 tqdm 崩溃问题
+-  实现 DeepSeek 风格深色主题 UI（蓝紫渐变）
+-  优化文件预览交互（默认不显示，点击后显示）
+-  修复侧边栏、输入框、按钮等样式问题
 
 ---
 
-## 📖 使用方法
+##  使用方法
 
 ### 1. 首次使用
 1. 左侧输入 DeepSeek API Key（或确认 `.env` 已配置）
-2. 点击「🔄 重建索引」按钮
+2. 点击「 重建索引」按钮
 3. 系统自动加载知识库文档并生成语义向量
 
 ### 2. 日常使用
@@ -47,12 +47,12 @@ streamlit run app.py --server.port 5002
 
 ### 3. 添加新文档
 1. 将 `.txt` 文件放入 `knowledge_base/` 文件夹
-2. 点击「🔄 重建索引」
+2. 点击「 重建索引」
 3. 新文档即可被检索
 
 ---
 
-## 🎨 UI 设计
+##  UI 设计
 
 **主题风格**：浅灰绿配色主题
 - 主背景：浅灰色 `#EFEFEF`
@@ -76,7 +76,7 @@ streamlit run app.py --server.port 5002
 
 ---
 
-## 🔧 技术架构
+##  技术架构
 
 | 组件 | 技术 | 来源 |
 |------|------|------|
@@ -88,7 +88,7 @@ streamlit run app.py --server.port 5002
 
 ---
 
-## 🐛 已解决的问题
+## 已解决的问题
 
 ### 问题 1：Streamlit 启动崩溃
 **现象**：`ValueError: I/O operation on closed file`
@@ -144,7 +144,7 @@ project2_knowledge_qa/
 
 ---
 
-## 📦 依赖安装
+##  依赖安装
 
 ```bash
 pip install -r requirements.txt
@@ -160,7 +160,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔗 相关链接
+##  相关链接
 
 - DeepSeek API：https://platform.deepseek.com/
 - HuggingFace Mirror：https://hf-mirror.com/
