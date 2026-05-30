@@ -6,9 +6,9 @@
 import os
 import re
 
-# HuggingFace 镜像配置
+# HuggingFace 配置
 os.environ["TQDM_DISABLE"] = "1"
-os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+# os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"  # 本地开发时启用此镜像加速
 
 
 os.environ["HF_HOME"] = os.path.join(os.path.expanduser("~"), ".cache", "huggingface")
